@@ -16,15 +16,7 @@ function main()
 
 function loadNames()
 {
-    names = []
-    var fake_dom = document.createElement( 'html' );
-    fake_dom.innerHTML = loadFile("answers")
-    var links = fake_dom.getElementsByTagName( 'a' );
-    for (link of Array.from(links))
-    {
-        names.push(link.getAttribute("href"))
-    }
-    return names
+    return loadFile("names").split("\n")
 }
 
 function loadFile(filePath) {
