@@ -1,0 +1,138 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+	background-color:#e4e4e4;
+	font-size: 12px;
+}
+
+td.font9,font.font9 {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+	font-size: 9px;
+}
+td.font10,font.font10 {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+	font-size: 10px;
+	
+}
+
+td:hover{
+    cursor: pointer;
+}
+
+td{
+    width : 50px;
+    height : 50px;
+}
+
+td.titolo,font.titolo {
+	font-family: "Trebuchet MS",Verdana, Geneva, Arial, helvetica, sans-serif;
+	font-size: 19px;
+	font-weight:bold;
+	color:#FF0000;
+}
+td.punti,font.punti {
+	font-family: "Trebuchet MS",Verdana, Geneva, Arial, helvetica, sans-serif;
+	font-size: 15px;
+	font-weight:bold;
+	color:#3A3A3A;
+}
+td.squadre,font.squadre {
+	font-family: "Trebuchet MS",Verdana, Geneva, Arial, helvetica, sans-serif;
+	font-size: 15px;
+	font-weight:bold;
+	color:#000000;
+}
+
+td.domanda {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	background-image:url(immagini/punti.png);
+    background-size:contain;
+}
+td.domanda_giusta {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	background-image:url(immagini/punti_v.png);
+    background-size:contain;
+}
+td.domanda_errata {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	background-image:url(immagini/punti_r.png);
+    background-size:contain;
+}
+td.domanda_j {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	background-image:url(immagini/puntiJ.png);
+}
+td.domanda_giusta_j {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	background-image:url(immagini/punti_vJ.png);
+}
+td.domanda_errata_j {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	background-image:url(immagini/punti_rJ.png);
+}
+
+td.tabella_s{background-image:url(immagini/terminale_sinistro.png);width:40px;height:30px;}
+td.tabella_s2{background-image:url(immagini/terminale_sinistro2.png);width:40px;height:60px;}
+td.tabella_d{background-image:url(immagini/terminale_destro.png);width:40px;height:30px;}
+td.tabella_d2{background-image:url(immagini/terminale_destro2.png);width:40px;height:60px;}
+td.tabella{background-image:url(immagini/sfondo.png);height:30px;}
+td.tabella2{background-image:url(immagini/sfondo2.png);height:60px;}
+
+td.valore_domande{background-image:url(immagini/domande.png);width:40px;}
+td.valore_domande2{background-image:url(immagini/domande_2.png);width:40px;}
+td.domande_sotto{background-image:url(immagini/domande_sotto.png);width:40px;height:15px;
+					font-size: 10px;
+					font-weight:bold;}
+td.domande_sotto_g{background-image:url(immagini/domande_sotto_g.png);width:40px;height:15px;
+					font-size: 10px;
+					font-weight:bold;}
+td.domande_sotto_r{background-image:url(immagini/domande_sotto_r.png);width:40px;height:15px;
+					font-size: 10px;
+					font-weight:bold;}
+
+
+td.tabella_s_e{background-image:url(immagini/terminale_sinistro_e.png);width:40px;height:30px;}
+td.tabella_e{background-image:url(immagini/sfondo_e.png);height:30px;}
+
+
+a:link {
+	TEXT-DECORATION: none;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+a:visited {
+	TEXT-DECORATION: none;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+a:hover {
+	TEXT-DECORATION: underline;
+	color: #FFAA00;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+tr.evidenzia {
+  background-color: #e4e4e4;
+}
+ 
+tr.evidenzia:hover {
+    background-color: #ff0000;
+}
+
