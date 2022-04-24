@@ -1,16 +1,20 @@
 function main()
 {
     var names = loadNames()
+	console.log(names);
     for (contest_name of names)
     {
-        var link = "simulate.html?name=" + contest_name;
-        var tag = document.createElement("a");
-        tag.setAttribute("href", link)
-        tag.innerHTML = contest_name
+		if (contest_name.length > 0)
+		{
+			var link = "simulate.html?name=" + contest_name;
+			var tag = document.createElement("a");
+			tag.setAttribute("href", link)
+			tag.innerHTML = contest_name
 
-        var il = document.createElement("li")
-        il.appendChild(tag)
-        document.getElementById("contests").appendChild(il)
+			var il = document.createElement("li")
+			il.appendChild(tag)
+			document.getElementById("contests").appendChild(il)
+		}
     }
 }
 
